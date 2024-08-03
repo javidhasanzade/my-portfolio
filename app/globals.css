@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.05);
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+@layer utilities {
+  .hero-radial-gradient {
+    background: radial-gradient(
+      circle at 50% 50%,
+      rgba(34, 139, 34, 0.3) 20%,
+      /* Forest Green with reduced opacity */
+        rgba(46, 139, 87, 0.2) 40%,
+      /* Sea Green with reduced opacity */
+        rgba(60, 179, 113, 0.1) 60%,
+      /* Medium Sea Green with reduced opacity */
+        rgba(144, 238, 144, 0.05) 80%,
+      /* Light Green with minimal opacity */ transparent
+        100% /* Fully transparent */
+    );
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .word-break-wrap {
+    word-break: break-word;
+    word-wrap: break-word;
+  }
+}
+
+html {
+  font-size: 95%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+}

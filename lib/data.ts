@@ -60,14 +60,79 @@ export const experiencesData = [
 
 export const skillsData = [
   {
-    name: "Ruby",
+    name: ".NET",
     image:
-      "https://img.icons8.com/?size=100&id=22189&format=png&color=000000",
+        "https://img.icons8.com/?size=100&id=dhCOURGWQnTW&format=png&color=000000",
+  },
+  {
+    name: "C#",
+    image:
+      "https://img.icons8.com/?size=100&id=45490&format=png&color=000000",
+  },
+  {
+    name: "ASP.NET",
+    image:
+        "https://img.icons8.com/?size=100&id=89ikFuDnOkbw&format=png&color=000000",
   },
   {
     name: "Java",
     image:
       "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
+  },
+  {
+    name: "Spring Boot",
+    image:
+        "https://img.icons8.com/?size=100&id=A3Ulk2RcONKs&format=png&color=000000",
+  },
+  {
+    name: "HTML",
+    image:
+        "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+  },
+  {
+    name: "CSS",
+    image:
+        "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+  },
+  {
+    name: "JavaScript",
+    image:
+        "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+  },
+  {
+    name: "Node.js",
+    image:
+        "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+  },
+  {
+    name: "React",
+    image:
+        "https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000",
+  },
+  {
+    name: "C++",
+    image:
+        "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
+  },
+  {
+    name: "Python",
+    image:
+        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+  },
+  {
+    name: "SQL",
+    image:
+        "https://img.icons8.com/?size=100&id=QSjnrUKYMnxO&format=png&color=000000",
+  },
+  {
+    name: "Docker",
+    image:
+        "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+  },
+  {
+    name: "AWS",
+    image:
+        "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
   },
 ] as const;
 

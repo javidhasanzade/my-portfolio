@@ -153,7 +153,7 @@ const Hero = () => {
         borderBlack
         dark:bg-white/10
         z-50"
-              href="/Ramil_Gojayev_CV_2023_ENG.pdf"
+              href="/Javid's%20CV.pdf"
               download
             >
               CV{" "}

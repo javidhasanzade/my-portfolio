@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import munioImg from "@/public/munio.png";
-import commercioStoreImg from "@/public/commercio-store.png";
-import commercioAdminImg from "@/public/commercio-admin.png";
 
 export const links = [
   {
@@ -58,51 +55,6 @@ export const experiencesData = [
       starting from Zero to Object-oriented programming, Data Structures and Alghoritms",
     icon: React.createElement(FaReact),
     date: "2022",
-  },
-] as const;
-
-export const projectsData = [
-  {
-    title: "Munio",
-    description:
-      "Elegantly crafted full-stack project, inspired by the ease of Discord and Slack.",
-    tags: [
-      "Next.js",
-      "TypeScript",
-      "MySQL",
-      "Prisma",
-      "Tailwind",
-      "Socket.io",
-      "Railway",
-    ],
-    imageUrl: munioImg,
-  },
-  {
-    title: "Commercio Store",
-    description:
-      "E-commerce store frontend which allows to purchase products of the store, view them trough categories and filters. Connected to Stripe(Dev)",
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "headlessui",
-    ],
-    imageUrl: commercioStoreImg,
-  },
-  {
-    title: "Commercio Admin",
-    description:
-      "E-commerce store admin panel, that allow to create multiple stores, banners, categories, and more. Sync with commerciostore.",
-    tags: [
-      "Next.js",
-      "Prisma",
-      "Tailwind",
-      "TypeScript",
-      "MySQL",
-      "shadcn ui",
-    ],
-    imageUrl: commercioAdminImg,
   },
 ] as const;
 
